@@ -8,5 +8,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [Anddea-magisk-module](https://github.com/X-android-pixel/anddea-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: anddea/patches-3.2.0.rvp  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.2.0)  
+Patches: anddea/patches-3.3.0.rvp  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.3.0)  
