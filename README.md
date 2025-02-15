@@ -1,32 +1,63 @@
-# Anddea Magisk Module
+<div align="center">
 
-Extensive ReVanced builder  
+# 📱 Anddea Module
 
-Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/releases).
+### Magisk & Kernal SU modules for Anddea patch.
 
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
+[![Latest Release](https://img.shields.io/github/v/release/X-android-pixel/anddea-module-root?color=blue&label=Latest%20Release&style=for-the-badge)](https://github.com/X-android-pixel/anddea-module-root/releases)
+[![Stars](https://img.shields.io/github/stars/X-android-pixel/anddea-module-root?color=yellow&style=for-the-badge)](https://github.com/X-android-pixel/anddea-module-root/stargazers)
+[![License](https://img.shields.io/github/license/X-android-pixel/anddea-module-root?color=green&style=for-the-badge)](LICENSE)
 
-<details><summary><big>Features</big></summary>
-<ul>
- <li>Support all present and future ReVanced and <a href="https://github.com/inotia00/revanced-patches">ReVanced Extended</a> apps</li>
- <li> Can build Magisk modules and non-root APKs</li>
- <li> Updated daily with the latest versions of apps and patches</li>
- <li> Optimize APKs and modules for size</li>
- <li> Modules</li>
-    <ul>
-     <li> recompile invalidated odex for faster usage</li>
-     <li> receive updates from Magisk app</li>
-     <li> do not break safetynet or trigger root detections</li>
-     <li> handle installation of the correct version of the stock app and all that</li>
-     <li> support Magisk and KernelSU</li>
-    </ul>
-</ul>
-Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.
+*Continuing the ReVanced legacy with optimized enhancements*
+
+</div>
+
+## 🌟 Overview
+
+Anddea is an enhanced fork of ReVanced patches, providing optimized features and additional customization for YouTube and YouTube Music.
+
+## 🚀 Quick Start
+
+1. 📥 Download latest release
+2. ⚡ Install [zygisk-detach](https://github.com/j-hc/zygisk-detach) (Recommended)
+3. 🔒 Detach YouTube/YouTube Music from Play Store (if using zygisk-detach)
+4. 📲 Install through Magisk Manager
+5. ✅ Enjoy enhanced experience!
+
+> **Note**: While zygisk-detach is recommended for stability, it's optional. Reboot after patch application is also optional.
+
+## ✨ Enhanced Features
+
+<details>
+<summary><b>🎯 YouTube Enhancements</b></summary>
+
+- 🚫 Advanced ad blocking
+- 🎵 Unrestricted background playback
+- 🎨 Custom UI modifications
+- 🔄 SponsorBlock integration
+- 👎 Return YouTube Dislike
+- 📱 MaterialYou theme support
+- 🎮 Enhanced swipe controls
+- ⚡ Performance optimizations
+
 </details>
 
-## To include/exclude patches or patch other apps
+<details>
+<summary><b>🎵 YouTube Music Features</b></summary>
 
- * Star the repo :eyes:
+- 🎧 Forced high-quality audio
+- 🚫 Advanced ad blocking
+- 🌃 Enhanced dark theme
+- 🎮 Landscape mode support
+- 🎵 Background playback
+- 🔊 OPUS codec support
+- ⚡ Optimized performance
+
+</details>
+
+## 🛠️ Building & Customization
+
+* Star the repo :eyes:
  * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=j-hc)
  * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
  * Run the build [workflow](../../actions/workflows/build.yml)
@@ -34,15 +65,43 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 
 also see here [`CONFIG.md`](./CONFIG.md)
 
-## Building Locally
-### On Termux
-```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+### Local Building
+
+#### 📱 Termux
+```bash
+bash <(curl -sSf https://raw.githubusercontent.com/X-android-pixel/anddea-module-root/main/build-termux.sh)
 ```
 
-### On Desktop
-```console
-$ git clone https://github.com/j-hc/revanced-magisk-module
-$ cd revanced-magisk-module
-$ ./build.sh
+#### 💻 Desktop
+```bash
+git clone https://github.com/X-android-pixel/anddea-module-root
+cd anddea-module-root
+./build.sh
 ```
+
+## 📋 Requirements
+
+- ✅ Magisk 24.0+ or KernelSU
+- ✅ Android 8.0+
+- ✅ Compatible app versions (see patches list)
+- ⭐ zygisk-detach (recommended for stability)
+
+## 🔄 Updates
+
+The module is regularly updated through CI workflow to ensure compatibility with the latest app versions and patches.
+
+## 🤝 Support
+
+- ⭐ Star this repository
+- 🐛 Report issues [here](https://github.com/X-android-pixel/anddea-module-root/issues)
+- 📖 Check Anddea [Wiki](https://github.com/anddea/revanced-patches/wiki)
+- 💡 Request features through issues
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+<div align="center">
+Made with ❤️ by X-android-pixel
+</div>
