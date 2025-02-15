@@ -21,8 +21,9 @@ Anddea is an enhanced fork of ReVanced patches, providing optimized features and
 1. 📥 Download latest release
 2. ⚡ Install [zygisk-detach](https://github.com/j-hc/zygisk-detach) (Recommended)
 3. 🔒 Detach YouTube/YouTube Music from Play Store (if using zygisk-detach)
-4. 📲 Install through Magisk Manager
-5. ✅ Enjoy enhanced experience!
+4. 📂 Extract the `com.google.android.youtube.apk` file from the module. This file is a clean version of YouTube. Install it, and it will be compatible with the patch. You can also download a compatible version via APKMirror.
+5. 📲 Install through Magisk Manager or Kernal SU
+6. ✅ Enjoy enhanced experience!
 
 > **Note**: While zygisk-detach is recommended for stability, it's optional. Reboot after patch application is also optional.
 
