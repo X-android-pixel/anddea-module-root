@@ -1,6 +1,6 @@
 {
-  "version": "v19.44.39 (patches: 3.3.0)",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/X-android-pixel/anddea-module-root/releases/download/3/youtube-anddea-revanced-magisk-v19.44.39-all.zip",
+  "version": "v19.44.39 (patches: 3.4.0)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/X-android-pixel/anddea-module-root/releases/download/4/youtube-anddea-revanced-magisk-v19.44.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/X-android-pixel/anddea-module-root/update/build.md"
 }
