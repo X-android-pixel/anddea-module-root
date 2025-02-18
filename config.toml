@@ -1,5 +1,6 @@
 enable-magisk-update = true
 parallel-jobs = 1
+compression-level = 9
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
