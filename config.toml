@@ -7,7 +7,7 @@ patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea ReVanced"
 build-mode = "module"
-excluded-patches = "'GmsCore support'"
+excluded-patches = "'GmsCore support' 'Spoof video streams'"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
